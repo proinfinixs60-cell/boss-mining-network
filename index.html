@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOSS MINING NETWORK</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b1020;color:#edf2ff;font-family:Arial,sans-serif}
+header{padding:22px;background:#151e35;border-bottom:1px solid #293653}
+h1{font-size:22px;margin:0;color:#56d6ff}
+header p{color:#aab8d3;font-size:13px}
+main{padding:16px;max-width:850px;margin:auto}
+.card{background:#151e35;border:1px solid #293653;border-radius:14px;padding:18px;margin-bottom:14px}
+.status{color:#45e59b;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.number{font-size:25px;font-weight:bold;margin-top:9px}
+small{color:#aab8d3}
+button{background:#1688d4;color:white;border:0;padding:12px 16px;border-radius:8px;font-weight:bold}
+footer{text-align:center;color:#8190aa;padding:20px;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+<h1>BOSS MINING NETWORK</h1>
+<p>Central Worker Control Dashboard</p>
+</header>
+<main>
+<div class="card">
+<h3>SERVER STATUS</h3>
+<div class="status">● DASHBOARD ONLINE</div>
+<small>Website berhasil dimuat</small>
+</div>
+<div class="grid">
+<div class="card">
+<small>REGISTERED WORKERS</small>
+<div class="number" id="workers">0</div>
+</div>
+<div class="card">
+<small>ACTIVE WORKERS</small>
+<div class="number" id="active">0</div>
+</div>
+<div class="card">
+<small>TOTAL HASHRATE</small>
+<div class="number">0 H/s</div>
+</div>
+<div class="card">
+<small>MINING REWARD</small>
+<div class="number">0 XMR</div>
+</div>
+</div>
+<div class="card">
+<h3>WORKER MANAGEMENT</h3>
+<p>Belum ada perangkat terdaftar.</p>
+<button onclick="alert('API worker belum diaktifkan')">CONNECT WORKER</button>
+</div>
+<div class="card">
+<h3>SYSTEM INFORMATION</h3>
+<p>Project: BOSS MINING NETWORK</p>
+<p>Version: 1.0 Prototype</p>
+<p>Mode: Dashboard Preview</p>
+</div>
+</main>
+<footer>BOSS MINING NETWORK © 2026</footer>
+</body>
+</html>
